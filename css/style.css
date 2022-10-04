@@ -1,0 +1,56 @@
+/* General styling */
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* align form to the center */
+#fs-frm {
+  max-width:420px;
+  margin:50px auto;
+}
+
+/* heading */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* form styles */
+#fs-frm-inputs {
+  border:1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#fs-frm [type="text"], #fs-frm [type="email"], textarea {
+  width:100%;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  border-radius: 5px;
+  border:1px solid #333;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+/* button */
+.btn {
+  width: 100%;
+
+  background: #0a75cc;
+  color:white;
+  
+  font-size:24px;
+
+  padding: 10px 0;
+  border-radius:5px;
+  border:0;
+
+  cursor:pointer;
+
+  transition: 0.2s;
+}
+
+.btn:hover { background:#555; }
